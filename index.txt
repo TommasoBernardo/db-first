@@ -1,5 +1,21 @@
- id                     - intero         - MEDIUMINT          PRIMARY_KEY AUTO_INCREMENT     
+ id                     - intero         - MEDIUMINT          PRIMARY_KEY AUTO_INCREMENT
+
  tipo_veicolo           - stringa        - VARCHAR(50)        NOTNULL
+
  numero_di_targa        - stringa        - VARCHAR(7)         NOTNULL
+
  marca                  - stringa        - VARCHAR(11)        NOTNULL
+
  anno_di_produzione     - data           - ANNO               NOTNULL
+
+ prezzo                 - float          - FLOAT(9,5)         NOTNULL
+
+ tipo_di_motore         - stringa        - VARCHAR(10)        NOTNULL
+
+ colore                 - stringa        - VARCHAR(20)        NULL
+
+ kilometri_accomulati   - float          - FLOAT()            NOTNULL 
+
+ porte                  - intero         - VAR CHAR(5)        NULL DEFAULT(3) 
+
+ posti-a-sedere         - intero         - VAR CHAR(5)        NULL DEFAULT(5)      
